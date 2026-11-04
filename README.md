@@ -1,8 +1,14 @@
 # rainy-nights-generating-fractals
-quiet thoughts, endless patterns
+
+<p align="center">
+  <img src="gif/tenor.gif" width="400">
+  <br>
+  <em>quiet thoughts, endless patterns</em>
+</p>
+
 ## Mandelbrot
 <p align="center">
-<img src="output/mandelbrot.png" width="500">
+<img src="output/mandelbrot.png" width="400">
 </p>
 
 The Mandelbrot set is defined by iterating:
@@ -17,7 +23,7 @@ A point belongs to the set if the sequence remains bounded.
 
 ## Barnsley fern
 <p align="center">
-<img src="output/barnsley_fern.png" width="500">
+<img src="output/barnsley_fern.png" width="400">
 </p>
 
 Barnsley's fern is generated using four affine transformations. Each transformation is defined as:
