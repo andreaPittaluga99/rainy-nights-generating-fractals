@@ -23,21 +23,20 @@ A point belongs to the set if the sequence remains bounded.
 Barnsley's fern is generated using four affine transformations. Each transformation is defined as:
 
 $$
-f_i(x, y)
-=
-\begin{pmatrix}
+f_i(x, y) =
+\begin{bmatrix}
 a&b\\
 c&d
-\end{pmatrix}
-\begin{pmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x\\
 y
-\end{pmatrix}
+\end{bmatrix}
 +
-\begin{pmatrix}
+\begin{bmatrix}
 e\\
 g
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 The four transformation are:
@@ -45,74 +44,69 @@ The four transformation are:
 *1. Stem (1%)*
 
 $$
-f_1 (x,y)
-=
-\begin{pmatrix}
+f_1 (x,y) =
+\begin{bmatrix}
 0.00&0.00\\
 0.00&0.16
-\end{pmatrix}
-\begin{pmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x\\
 y
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 *2. Successively smaller leaflets (85%)*
 
 $$
-f_2 (x,y)
-=
-\begin{pmatrix}
+f_2 (x,y) =
+\begin{bmatrix}
 0.85&0.04\\
 -0.04&0.85
-\end{pmatrix}
-\begin{pmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x\\
 y
-\end{pmatrix}
+\end{bmatrix}
 +
-\begin{pmatrix}
+\begin{bmatrix}
 0.00\\
 1.60
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 *3. Largest left-hand leaflet (7%)*
 
 $$
-f_3 (x,y)
-=
-\begin{pmatrix}
+f_3 (x,y) = \begin{bmatrix}
 0.20&-0.26\\
 0.23&0.22
-\end{pmatrix}
-\begin{pmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x\\
 y
-\end{pmatrix}
+\end{bmatrix}
 +
-\begin{pmatrix}
+\begin{bmatrix}
 0.00\\
 1.60
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 *4. Largest right-hand leaflet (7%)*
 
 $$
-f_4 (x,y)
-=
-\begin{pmatrix}
+f_4 (x,y) =
+\begin{bmatrix}
 -0.15&0.28\\
 0.26&0.24
-\end{pmatrix}
-\begin{pmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x\\
 y
-\end{pmatrix}
+\end{bmatrix}
 +
-\begin{pmatrix}
+\begin{bmatrix}
 0.00\\
 0.44
-\end{pmatrix}
+\end{bmatrix}
 $$
