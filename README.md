@@ -6,7 +6,7 @@
   <em>quiet thoughts, endless patterns</em>
 </p>
 
-## Mandelbrot
+## Mandelbrot set
 <p align="center">
 <img src="output/mandelbrot.png" width="400">
 </p>
@@ -20,6 +20,19 @@ $$
 where $c$ is a complex number. 
 
 A point belongs to the set if the sequence remains bounded.
+
+## Julia set
+<p align="center">
+<img src="output/julia.png" width="400">
+</p>
+
+The Julia set uses the same iterative formula as the Mandelbrot set:
+
+$$
+z_{n+1} = z_n^2 + c
+$$
+
+The difference is that $c$ is fixed, while $z_0$ varies for each pixel.
 
 ## Barnsley fern
 <p align="center">
