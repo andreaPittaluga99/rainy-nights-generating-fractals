@@ -129,3 +129,15 @@ y
 0.44
 \end{bmatrix}
 $$
+
+## Sierpiński triangle
+
+<p align="center">
+<img src="output/sierpinski.png" width="400">
+</p>
+
+The Sierpiński triangle can be constructed from an equilateral triangle by repeated removal of triangular subsets:
+
+1. we start with an equilateral triangle.
+2. then we subdivide it into four smaller congruent equilateral triangles and remove the central triangle.
+3. we recursively repeat step 2 with each of the remaining smaller triangles infinitely (or in our case until we reach out targeted depth because we sadly don't own infinite memory :c)
